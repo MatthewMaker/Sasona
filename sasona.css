@@ -1,0 +1,49 @@
+
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; margin:5%;}
+
+.Navigation{
+    float: left;
+    margin: -6%;    
+   }
+
+a:link { color: darkgreen;}
+a:visited { color: darkgreen; }
+a:hover { color: darkgreen; }
+a:active { color:darkgreen; }
+
+   ul {
+      color: darkgreen;
+}
+       
+    li {
+      font-size: 12px;
+      display: inline;
+      padding:  0em 0.5em 0em 0.5em;
+    }
+   p{
+    margin: auto 0;
+    text-align: left;
+    }
+    
+  h1 {
+      margin: 0.5% 0% 0.5% 0%;
+      color: darkgreen;
+      text-align: center;
+      font-size: 2em; 
+    }
+  h2 {
+    margin-top: 0.05%;
+    color: darkgreen;
+    }
+
+.header{
+    margin-top: 0.05%;
+    display: inline;
+    padding: 0% 5% 0% 5%;
+    text-align: center;
+}
+.photos{
+    padding: 1em;
+    text-align: left;
+}
+
