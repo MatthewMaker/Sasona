@@ -7,6 +7,6 @@ Our goal is to provide affordable and democratically runned housing.
 to do:
 - I think I addidentally deleted the icon for the tab--oopsies. 
 - embed google maps for contact page
-- playing with background banner for top of page
+- playing with background banner for top of page, do we have issues with this baby poop color : #EDEB87 
 - Edit content
 - FAQ page
