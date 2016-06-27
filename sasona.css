@@ -1,39 +1,41 @@
 
-body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; margin:5%;}
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; margin:5%;}
 
 .Navigation{
     float: left;
-    margin: -6%;    
+    margin: -6%;  
+    background-color: darkgreen;
+    
    }
+ a.Nav_Bar:link { color: white;}
+ a.Nav_Bar:active { color:  white; }
+ a.Nav_Bar:visited{ color:  white;}
+ a.Nav_Bar:hover { color: white;}
 
-a:link { color: darkgreen;}
-a:visited { color: darkgreen; }
-a:hover { color: darkgreen; }
-a:active { color:darkgreen; }
-
-   ul {
-      color: darkgreen;
+ul {
+     color: white;
 }
        
-    li {
+li {
       font-size: 12px;
       display: inline;
       padding:  0em 0.5em 0em 0.5em;
+  
     }
-   p{
+p{
     margin: auto 0;
     text-align: left;
     }
     
-  h1 {
+h1 {
       margin: 0.5% 0% 0.5% 0%;
-      color: darkgreen;
+      color: white;
+      background-color: darkgreen;
       text-align: center;
       font-size: 2em; 
     }
-  h2 {
-    margin-top: 0.05%;
-    color: darkgreen;
+h2 {
+       color: darkgreen;
     }
 
 .header{
