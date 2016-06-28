@@ -4,24 +4,34 @@ body {font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; ma
 .Navigation{
     float: left;
     margin: -6%;  
-    background-color: darkgreen;
-    
+    background-color: darkgreen;    
    }
+ 
  a.Nav_Bar:link { color: white;}
  a.Nav_Bar:active { color:  white; }
  a.Nav_Bar:visited{ color:  white;}
  a.Nav_Bar:hover { color: white;}
-
+/*
 ul {
      color: white;
+   background-color: darkgreen;
+  }
+*/
+#nav_bar li {
+      font-size: 12px;
+      display: inline;
+      padding:  0em 0.5em 0em 0.5em;
+    
 }
        
+/*
 li {
       font-size: 12px;
       display: inline;
       padding:  0em 0.5em 0em 0.5em;
   
     }
+*/
 p{
     margin: auto 0;
     text-align: left;
@@ -35,6 +45,7 @@ h1 {
       font-size: 2em; 
     }
 h2 {
+/*    margin-top: 0.05%;*/
        color: darkgreen;
     }
 
