@@ -1,6 +1,6 @@
 @import url(<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>);
 
-body {font-family: Roboto, sans-serif; margin:5%;}
+body {font-family: Roboto, sans-serif; margin:auto;}
 
 .Navigation{
     position: fixed;
@@ -41,16 +41,17 @@ li {
 */
 #hero {
 /*    background: url(../images/zebra-hero.jpg) no-repeat top left;*/
-    color: #fafafa;
+/*    color: #fafafa;*/
     text-align: center;
 /*    height: 350px;*/
-    padding: 1.5em 0;
+    padding: 7.5em 0 1.5em 0;
     background-size: cover;
     font-size: 14px;
+    img:hover { color: darkgreen;}
 }
     
 h1 {
-/*      margin: 0.5% 0% 0.5% 0%;*/
+      margin: 0.5% 0% 0.5% 0%;
       color: darkgreen;
       text-align: center;
       font-family: Roboto; serif; 
@@ -75,6 +76,14 @@ h2 {
     text-align: left;
 }
 p{padding: .5em;}
+
+/*
+.container {
+    width: 100%; 
+    margin: 0 auto;
+}
+*/
+
 #social {
     background: darkgreen;
     color: #fafafa;
@@ -85,3 +94,7 @@ p{padding: .5em;}
     width: 100%;
     position: relative;
 }
+ a.Email:link { color: darkgreen;}
+ a.Email:active { color:  darkgreen; }
+ a.Email:visited{ color: darkgreen;}
+ a.Email:hover { color: darkgreen;}
