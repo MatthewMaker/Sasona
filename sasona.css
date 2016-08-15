@@ -47,7 +47,10 @@ li {
     padding: 7.5em 0 1.5em 0;
     background-size: cover;
     font-size: 14px;
-    img:hover { color: darkgreen;}
+/*    img:hover { color: darkgreen;}*/
+}
+#hero img{
+    border-radius: 40px;
 }
     
 h1 {
