@@ -16,6 +16,12 @@ body {font-family: Roboto, sans-serif; margin:auto;}
  a.Nav_Bar:active { color:  white; }
  a.Nav_Bar:visited{ color:  white;}
  a.Nav_Bar:hover { color: white;}
+
+a.Back_Home:link{color:darkgreen;}
+a.Back_Home:active{color:darkgreen;}
+a.Back_Home:visited{color: darkgreen;}
+a.Back_Home:hover{color:darkgreen;}
+a{text-decoration: none;}
 /*
 ul {
      color: white;
@@ -51,7 +57,9 @@ li {
 }
 #hero img{
     border-radius: 40px;
+    transition-duration: 5s;
 }
+
     
 h1 {
       margin: 0.5% 0% 0.5% 0%;
@@ -67,6 +75,8 @@ h2 {
     }
 #content{
     font-family: Roboto; serif;
+    text-align: left;
+    padding: .5em;
 }
 .header{
     margin-top: 0.05%;
@@ -78,7 +88,7 @@ h2 {
     padding: 1em;
     text-align: left;
 }
-p{padding: .5em;}
+/*p{padding: .5em;}*/
 
 /*
 .container {
@@ -101,3 +111,9 @@ p{padding: .5em;}
  a.Email:active { color:  darkgreen; }
  a.Email:visited{ color: darkgreen;}
  a.Email:hover { color: darkgreen;}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
