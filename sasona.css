@@ -114,6 +114,11 @@ h2 {
 
 .column {
     float: left;
+    width: 10%;
+/*    padding: 15px;*/
+}
+.more_columns {
+    float: left;
     width: 30%;
     padding: 15px;
 }
