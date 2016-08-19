@@ -122,3 +122,8 @@ h2 {
      padding: 1em;
      width: 100%;
 }
+#links{
+    font-family: Roboto; serif;
+    text-align: center;
+    padding: 1em;
+}
