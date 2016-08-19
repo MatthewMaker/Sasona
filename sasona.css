@@ -115,20 +115,16 @@ h2 {
 .column {
     float: left;
     width: 30%;
-    padding: 15px;
+    padding: .55em;
 }
-.more_columns {
-    float: left;
-    width: 30%;
-    padding: 15px;
-}
+
 .house_photo{
     text-align: center;
-     padding: 1em;
+/*     padding: 1em;*/
      width: 100%;
 }
 #links{
     font-family: Roboto; serif;
-    text-align: center;
+/*    text-align: center;*/
     padding: 1em;
 }
