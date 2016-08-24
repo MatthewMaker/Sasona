@@ -28,9 +28,11 @@ ul {
    background-color: darkgreen;
   }
 */
+/*
 li{
     color:darkgreen;
 }
+*/
 #nav_bar li {
       font-family: Roboto; serif; 
 /*      font-size: 12px;*/
@@ -118,6 +120,7 @@ h2 {
 .column {
     float: left;
     width: 30%;
+    padding: 0.5em;
 }
 /*
 
