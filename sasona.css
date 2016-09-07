@@ -22,12 +22,10 @@ a.Back_Home:active{color:darkgreen;}
 a.Back_Home:visited{color: darkgreen;}
 a.Back_Home:hover{color:darkgreen;}
 a{text-decoration: none;}
-/*
 ul {
-     color: white;
-   background-color: darkgreen;
+     list-style-type: disc;
+     
   }
-*/
 /*
 li{
     color:darkgreen;
