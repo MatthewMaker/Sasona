@@ -48,6 +48,11 @@ li {
   
     }
 */
+p:hover{
+    display: block;
+    color:green;
+    
+}
 #hero {
 /*    background: url(../images/zebra-hero.jpg) no-repeat top left;*/
 /*    color: #fafafa;*/
