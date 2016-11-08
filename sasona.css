@@ -48,11 +48,7 @@ li {
   
     }
 */
-p:hover{
-    display: block;
-    color:green;
-    
-}
+
 #hero {
 /*    background: url(../images/zebra-hero.jpg) no-repeat top left;*/
 /*    color: #fafafa;*/
@@ -104,7 +100,14 @@ h2 {
     margin: 0 auto;
 }
 */
-
+#answers .text{
+    position: relative;
+    visibility: hidden;
+}
+#answers:hover .text{
+    visibility: visible;
+    
+}
 #social {
     background: darkgreen;
     color: #fafafa;
