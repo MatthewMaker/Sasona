@@ -101,10 +101,11 @@ h2 {
 }
 */
 #answers .text{
-    position: relative;
-    visibility: hidden;
+   display: none;
+/*   visibility: hidden;*/
 }
 #answers:hover .text{
+    display: block;
     visibility: visible;
     
 }
