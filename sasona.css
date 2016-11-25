@@ -48,7 +48,9 @@ li {
   
     }
 */
-
+button{
+    display: none;
+}
 #hero {
 /*    background: url(../images/zebra-hero.jpg) no-repeat top left;*/
 /*    color: #fafafa;*/
