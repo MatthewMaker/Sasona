@@ -49,7 +49,9 @@ li {
     }
 */
 button{
-    display: none;
+    background-color: white;
+    border-color: white;
+     border: none;
 }
 #hero {
 /*    background: url(../images/zebra-hero.jpg) no-repeat top left;*/
