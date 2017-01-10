@@ -104,15 +104,18 @@ h2 {
     margin: 0 auto;
 }
 */
-.text{
-   display: none;
 
-}
+/*
 #answers:hover .text{
     display: block;
     visibility: visible;
     
 }
+*/
+.transition{
+    transition: all 0.25s ease-in-out;
+}
+
 #social {
     background: darkgreen;
     color: #fafafa;
