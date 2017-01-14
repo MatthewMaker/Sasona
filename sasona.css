@@ -22,12 +22,15 @@ a.Back_Home:active{color:darkgreen;}
 a.Back_Home:visited{color: darkgreen;}
 a.Back_Home:hover{color:darkgreen;}
 a{text-decoration: none;}
-ul {
+
+ul 
+{
      list-style-type: none;
      
   }
 
-#nav_bar li {
+#nav_bar li 
+{
       font-family: Roboto; serif; 
       font-size: 1em;
       display: inline;
@@ -35,48 +38,56 @@ ul {
     
 }
 
-
-#hero {
+#hero 
+{
     text-align: center;
     padding: 7.5em 0 1.5em 0;
     background-size: cover;
     font-size: 1em;
 }
-#hero img{
+
+#hero img
+{
     border-radius: 10%;
     transition-duration: 5s;
 }
 
     
-h1 {
+h1 
+{
       margin: 0.5% 0% 0.5% 0%;
       color: darkgreen;
       text-align: center;
       font-family: Roboto; serif; 
       font-size: 2em; 
     }
-h2 {
+h2
+{
        font-family: Roboto; serif; 
        color: darkgreen;
     }
-#content{
+#content
+{
     font-family: Roboto; serif;
     font-size: 1em;
     text-align: left;
     padding: 5%;
 }
-.header{
+.header
+{
     margin-top: 0.05%;
     display: inline;
     padding: 0% 5% 0% 5%;
     text-align: center;
 }
-.photos{
+.photos
+{
     padding: 1em;
     text-align: left;
 }
 
-.accordion {
+.accordion 
+{
     font-family:Arial, Helvetica, sans-serif; 
     margin:0 auto;
     font-size:14px;
@@ -86,19 +97,23 @@ h2 {
     padding:10px;
     background:#fff;
 }
-.accordion ul {
+.accordion ul 
+{
     list-style:none;
     margin:0;
     padding:0;    
 }
-.accordion li {
+.accordion li
+{
     margin:0;
     padding:0;
 }
-.accordion [type=radio], .accordion [type=checkbox] {
+.accordion [type=radio], .accordion [type=checkbox]
+{
     display:none;
 }
-.accordion label {
+.accordion label 
+{
     display:block;
     font-size:16px;
     line-height:16px;
@@ -112,52 +127,63 @@ h2 {
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
 }
-.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label 
+{
     background:#C02942;
     color:#FFF;
     text-shadow:1px 1px 1px rgba(0,0,0,0.5)
 }
-.accordion .answers {
+.accordion .answers 
+{
     padding:0 10px;
     overflow:hidden;
     border:1px solid #fff; /* Make the border match the background so it fades in nicely */
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
 }
-.accordion p {
+.accordion p
+{
     color:#333;
     margin:0 0 10px;
 }
-.accordion h2  {
+.accordion h2
+{
     color:#542437;
     padding:0;
     margin:10px 0;
 }
 
-.vertical ul li{
+.vertical ul li
+{
     overflow: hidden;
     margin: 0 1px;
 }
-.vertical ul li label{
+.vertical ul li label
+{
     padding: 10px;
 }
 .vertical [type=radio]:checked ~label,
-.vertical [type=checkbox]:checked ~label{
+.vertical [type=checkbox]:checked ~label
+{
     border-bottom: 0;
 }
-.vertical ul li label:hover{
+.vertical ul li label:hover
+{
     border: 1px solid #542437
 }
-.vertical ul li .content{
+.vertical ul li .content
+{
     height: 0px;
     border-top: 0;
 }
 .vertical[type=radio]:checked~lable~
-.content, .vertical [type=checkbox]:checked ~label~ .content{
+.content, .vertical [type=checkbox]:checked ~label~ .content
+{
     height: 300px;
     border:1px solid #542437;
 }
-#social {
+#social 
+{
     background: darkgreen;
     color: #fafafa;
     padding: 5% 0;
@@ -172,7 +198,8 @@ h2 {
  a.Email:visited{ color: darkgreen;}
  a.Email:hover { color: darkgreen;}
 
-.column {
+.column 
+{
     float: left;
     width: 30%;
     padding: 0.5em;
@@ -188,4 +215,14 @@ h2 {
     {
      font-size: 1em;   
     }
+}
+@media screen and (min-width:960px)
+{
+    .column 
+{
+    float: left;
+    width: 100%;
+    padding: 0.5em;
+}
+    
 }
