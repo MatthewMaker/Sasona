@@ -16,8 +16,17 @@
 
 <link rel="stylesheet" href="sasona.css" type="text/css">
 <link href="/normalize.css" rel="stylesheet">
+<<<<<<< HEAD
+      <!---? will this make my accordian, jquery> <-->
+<link rel="javascript" href="sasona.js">
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+   <!-- Latest compiled and minified CSS -->
+=======
 <!--<link rel="javascript" href="sasona.js">-->
 <!-- Latest compiled and minified CSS -->
+>>>>>>> origin/master
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -34,6 +43,7 @@
     
 </head>
 <body>
+    <div id="answer">
     <div class="Navigation">
         <ul id="nav_bar">
         <li class="nav_bar"><a href="index.html"title="Home page" class="Nav_Bar" > Home</a></li>
@@ -47,12 +57,17 @@
 </div>
     <section id="hero">  <h1>Frequently asked questions about Sasona Cooperative</h1> </section>
     <section id="content">
-      <ul>
-          <button><h2>What is a co-op?</h2></button>
-          <div id="answers">
+<!--remove buttons-->
+<!--       <input type="checkbox" checked radio, radio-accordion> -->
+        <div class ="accordian">
+            <ul>
+                <li>
+        <input type="radio" id-"radio-1" name="radio-accordion" checked="checked"/>
+         <label for="radio-1"><h2>What is a co-op?</h2></label> 
+          <div class="answers">
              <p class ="text">“A cooperative is a business controlled by the people who use it. It is a democratic organization whose earnings and assets belong to its members. By patronizing and becoming an active member of a co-op, you invest yourself with the power to shape that business. You control the politics and economics of what is truly your organization" (NASCO). 
    This localized member control allows co-ops to be as varied as the people they serve. Thus, there are different types of co-ops including: food co-ops, housing co-ops, arts and crafts co-ops, book co-ops, bakery co-ops, bike co-ops, farm co-ops, rural electric co-ops, financial co-ops (credit unions), and insurance co-ops. And each of these has a flavor of its own, reflective of the desires of its individual memberships. Despite the diversity in type and tradition of co-ops, most have several things in common, particularly the ideals and principles from which they emerge.”For more info about why coops are such a good idea, check out: <a href="http://www.nasco.coop" target="_blank" title="NASCO website"> NASCO</a>
- </p></div>
+ </p></div></div></li></ul>
    
           <button id="show_text"><h2>What principles does Sasona follow? </h2></button>
           <div id="answers">
@@ -230,7 +245,9 @@ It’s best to contact the Membership Coordinator beforehand to let them know yo
        <p class ="text"> <img src="images/houseplan.gif">
             </ul></p></div>
 -->
+        </div>
 </section>
+        
     <section id="social">
         
 <a href="https://www.facebook.com/sasonacoop"><img src="/images/facebook.png" alt="facebook page"></a>
