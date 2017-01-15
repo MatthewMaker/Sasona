@@ -210,7 +210,7 @@ h2
 but change layout for desktop*/
 .column 
 {
-   max-width: 100%;
+   width: 100%;
 }
 
 #links{
@@ -222,5 +222,10 @@ but change layout for desktop*/
         float: left;
         width: 30%;
         padding: 15px;
+    }
+}
+@media screen and (max-device-width:960px){
+    .column{
+        width: 100%;
     }
 }
