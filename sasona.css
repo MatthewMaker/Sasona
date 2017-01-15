@@ -228,4 +228,7 @@ but change layout for desktop*/
     .column{
         width: 100%;
     }
+    img {
+        padding: 5%;
+    }
 }
