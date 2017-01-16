@@ -1,17 +1,14 @@
-//document.getmyElementById("button").onclick = function () {
-//    document.getElementById("text").style.display = 'block';
-//    document.getElementById("text").style.visibility ='visible';
-//};
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-//
-//function show(target){
-//document.getElementById("button").onlclick.style.display = 'block';
-//document.getElementById("text").onclick.style.display = 'block';
-//}
-//function hide(target){
-//document.getElementById("text").style.display = 'none';
-//document.getElementById("text").style.display = 'block';
-//}
-  $( function() {
-    $( "#answer" ).accordion();
-  } );
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+	  if (panel.style.maxHeight){
+  	  panel.style.maxHeight = null;
+    } else {
+  	  panel.style.maxHeight = panel.scrollHeight + 'px';
+    } 
+  }
+}
