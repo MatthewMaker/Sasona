@@ -98,14 +98,13 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-
+/*for mobile, make background color darkgreen*/
 button.accordion.active, button.accordion:hover {
 /*    background-color: #08aa6b;*/
     background-image: url(images/backyard.jpg);
-
-    
 }
-h2:hover{color:white;}
+
+h2:visited, h2:active, h2:hover{color:white;}
 
 button.accordion:after {
     content: '\002B';
