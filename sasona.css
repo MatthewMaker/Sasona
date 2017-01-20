@@ -12,15 +12,8 @@ body {font-family: Georgia, sans-serif; margin:auto;}
     width: 100%;
    }
  
- a.Nav_Bar:link { color: white;}
- a.Nav_Bar:active { color:  white; }
- a.Nav_Bar:visited{ color:  white;}
- a.Nav_Bar:hover { color: white;}
-
-a.Back_Home:link{color:darkgreen;}
-a.Back_Home:active{color:darkgreen;}
-a.Back_Home:visited{color: darkgreen;}
-a.Back_Home:hover{color:darkgreen;}
+a.Nav_Bar:link, a.Nav_Bar:active,a.Nav_Bar:visited,a.Nav_Bar:hover { color: white;}
+a.Back_Home:link, a.Back_Home:active, a.Back_Home:visited, a.Back_Home:hover{color:darkgreen;}
 a{text-decoration: none;}
 
 ul 
