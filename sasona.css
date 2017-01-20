@@ -131,10 +131,7 @@ div.answers {
     width: 100%;
     position: relative;
 }
- a.Email:link { color: darkgreen;}
- a.Email:active { color:  darkgreen; }
- a.Email:visited{ color: darkgreen;}
- a.Email:hover { color: darkgreen;}
+ a.Email:link, a.Email:active,a.Email:visited, a.Email:hover { color: darkgreen;}
 
 /*for the about page and links page, we will use columns. These will stack for mobile,
 but change layout for desktop*/
