@@ -97,7 +97,7 @@ button.accordion.active, button.accordion:hover {
     background-image: url(images/backyard.jpg);
 }
 
-h2:visited, h2:active, h2:hover{color:white;}
+h2.acc:visited, h2.acc:active, h2.acc:hover{color:white;}
 
 button.accordion:after {
     content: '\002B';
@@ -118,7 +118,6 @@ div.answers {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
 
 #social 
 {
