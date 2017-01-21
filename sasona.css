@@ -97,7 +97,7 @@ button.accordion.active, button.accordion:hover {
     background-image: url(images/backyard.jpg);
 }
 
-h2:active, h2: hover{color:white;}
+h2:active, h2:hover{color:white;}
 
 
 button.accordion:after {
