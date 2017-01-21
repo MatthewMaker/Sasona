@@ -104,7 +104,7 @@ button.accordion.active, button.accordion:hover {
     background-image: url(images/backyard.jpg);
 }
 
-h2:visited, h2:active, h2:hover{color:white;}
+h2:active, h2:hover, h2:after{color:white;}
 
 button.accordion:after {
     content: '\002B';
@@ -116,6 +116,7 @@ button.accordion:after {
 
 button.accordion.active:after {
     content: "\2212";
+    color: white;
 }
 
 div.answers {
