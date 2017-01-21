@@ -97,11 +97,8 @@ button.accordion.active, button.accordion:hover {
     background-image: url(images/backyard.jpg);
 }
 
-<<<<<<< HEAD
-h2:active, h2:hover, h2:after{color:white;}
-=======
-h2.acc:active, h2.acc:hover{color:white;}
->>>>>>> origin/master
+h2:active, h2: hover{color:white;}
+
 
 button.accordion:after {
     content: '\002B';
