@@ -1,6 +1,6 @@
-@import url(<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>);
+/*Mr.Roboto font, Jackie isn't a fan. @import url(<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>);*/
 
-body {font-family: Roboto, sans-serif; margin:auto;}
+body {font-family: Georgia, sans-serif; margin:auto;}
 
 .Navigation{
     position: fixed;
@@ -12,15 +12,8 @@ body {font-family: Roboto, sans-serif; margin:auto;}
     width: 100%;
    }
  
- a.Nav_Bar:link { color: white;}
- a.Nav_Bar:active { color:  white; }
- a.Nav_Bar:visited{ color:  white;}
- a.Nav_Bar:hover { color: white;}
-
-a.Back_Home:link{color:darkgreen;}
-a.Back_Home:active{color:darkgreen;}
-a.Back_Home:visited{color: darkgreen;}
-a.Back_Home:hover{color:darkgreen;}
+a.Nav_Bar:link, a.Nav_Bar:active,a.Nav_Bar:visited,a.Nav_Bar:hover { color: white;}
+a.Back_Home:link, a.Back_Home:active, a.Back_Home:visited, a.Back_Home:hover{color:darkgreen;}
 a{text-decoration: none;}
 
 ul 
@@ -104,7 +97,11 @@ button.accordion.active, button.accordion:hover {
     background-image: url(images/backyard.jpg);
 }
 
+<<<<<<< HEAD
 h2:active, h2:hover, h2:after{color:white;}
+=======
+h2.acc:active, h2.acc:hover{color:white;}
+>>>>>>> origin/master
 
 button.accordion:after {
     content: '\002B';
@@ -127,7 +124,6 @@ div.answers {
     transition: max-height 0.2s ease-out;
 }
 
-
 #social 
 {
     background: darkgreen;
@@ -139,10 +135,7 @@ div.answers {
     width: 100%;
     position: relative;
 }
- a.Email:link { color: darkgreen;}
- a.Email:active { color:  darkgreen; }
- a.Email:visited{ color: darkgreen;}
- a.Email:hover { color: darkgreen;}
+ a.Email:link, a.Email:active,a.Email:visited, a.Email:hover { color: darkgreen;}
 
 /*for the about page and links page, we will use columns. These will stack for mobile,
 but change layout for desktop*/
