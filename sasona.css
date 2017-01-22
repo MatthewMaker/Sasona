@@ -97,7 +97,7 @@ button.accordion.active, button.accordion:hover {
       background-color: darkgreen;
 }
 
-h2.acc:active, h2.acc:hover, h2.acc:after{color:white;}
+h2.acc:visited, h2.acc:hover, h2.acc:after{color:white;}
 /*button.accordion.active, h2.acc:after{color: white;}*/
 
 
