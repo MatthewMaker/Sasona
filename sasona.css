@@ -93,11 +93,12 @@ button.accordion {
 }
 /*for mobile, make background color darkgreen*/
 button.accordion.active, button.accordion:hover {
-/*    background-color: #08aa6b;*/
-    background-image: url(images/backyard.jpg);
+/*    background-image: url(images/backyard.jpg); will revisit*/
+      background-color: darkgreen;
 }
 
 h2.acc:active, h2.acc:hover, h2.acc:after{color:white;}
+/*button.accordion.active, h2.acc:after{color: white;}*/
 
 
 button.accordion:after {
@@ -159,4 +160,6 @@ but change layout for desktop*/
     img {
         padding: 5%;
     }
+    button.accordion.active, button.accordion:hover {
+        background-color: darkgreen;
 }
