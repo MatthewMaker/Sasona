@@ -91,14 +91,14 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-/*for mobile, make background color darkgreen*/
-button.accordion.active, button.accordion:hover {
-/*    background-image: url(images/backyard.jpg); will revisit*/
+/*for mobile, make background color darkgreen*/ 
+ button.accordion:hover {
+/*    background-image: url(images/backyard.jpg); will revisit button.accordion.active*/
       background-color: darkgreen;
 }
 
-h2.acc:visited, h2.acc:hover, h2.acc:after{color:white;}
-/*button.accordion.active, h2.acc:after{color: white;}*/
+ h2.acc:hover, h2.acc:after{color:white;}
+/*button.accordion.active, h2.acc:after{color: white;}* h2.acc:visited,/*/
 
 
 button.accordion:after {
@@ -136,7 +136,7 @@ div.answers {
  a.Email:link, a.Email:active,a.Email:visited, a.Email:hover { color: darkgreen;}
 
 /*for the about page and links page, we will use columns. These will stack for mobile,
-but change layout for desktop*/
+but change layout for desktop
 .column 
 {
    width: 100%;
@@ -160,6 +160,5 @@ but change layout for desktop*/
     img {
         padding: 5%;
     }
-    button.accordion.active, button.accordion:hover {
-        background-color: darkgreen;
 }
+
