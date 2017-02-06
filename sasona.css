@@ -30,7 +30,7 @@ ul
       padding:  0em 0.5em 0em 0.5em;
     
 }
-#slide-pic li
+#slide_pic li
 {
     display: inline;
     
@@ -141,7 +141,7 @@ div.answers {
  a.Email:link, a.Email:active,a.Email:visited, a.Email:hover { color: darkgreen;}
 
 /*for the about page and links page, we will use columns. These will stack for mobile,
-but change layout for desktop
+but change layout for desktop*/
 .column 
 {
    width: 100%;
