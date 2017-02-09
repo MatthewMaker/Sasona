@@ -96,14 +96,6 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-/*for mobile, make background color darkgreen*/ 
- button.accordion:hover {
-/*    background-image: url(images/backyard.jpg); will revisit button.accordion.active*/
-      background-color: darkgreen;
-}
-
- h2.acc:hover, h2.acc:after{color:white;}
-/*button.accordion.active, h2.acc:after{color: white;}* h2.acc:visited,/*/
 
 
 button.accordion:after {
@@ -116,8 +108,7 @@ button.accordion:after {
 
 button.accordion.active:after{
     content: "\2212";
-    color: white;
-}
+   }
 
 div.answers {
     padding: 0 18px;
