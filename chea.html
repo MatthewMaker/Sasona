@@ -38,9 +38,17 @@
 </div>
     <section id="hero">
     <h1><a href="index.html" class="Back_Home">Community Housing Expansion of Austin</a></h1>
-        <img src="images/lare.jpg" alt="La Reunion">
-         <img src="images/sunset.jpg" alt="La Reunion">
-         <img src="images/front_house_fall.jpg" alt="La Reunion">
+        <div class="slideshow">
+        <ul id="slide_pic">
+            <li class="slide_pic"> <img src="images/lare.jpg" alt="La Reunion" width="400" height="300"></li>
+            <li class="slide_pic"><img src="images/sunset.jpg" alt="Sunset at La Re" width="400" height="300"></li>
+            <li class="slide_pic"> <img src="images/front_house_fall.jpg" alt="Sasona" width="400" height="300"></li>
+              </ul>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="sasona.js"></script>
     </section>
     <section id="content">
     <p>Community Housing Expansion of Austin is the 501(C)3 nonprofit
