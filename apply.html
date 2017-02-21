@@ -11,14 +11,16 @@
     <link rel="icon"type="image/xcf" href="favicon.ico">
     </head>
     <body>
-        <h1> Application </h1>
-        <form id="apply">
-            <label for="inputValue">What's your name?:</label> <input type="text" id="inputValue"><br/>
-            <label for="inputValue">What's your email address? :</label> <input type="text" id="inputValue"><br/>
-             <label for="inputValue">Tell us about yourself and why you are interested in Sasona:</label> <input type="text" id="inputValue"><br/>
+        <h1> Tell us about yourself, and join us for dinner! </h1>
+        <!--for test purpose make another page but this action will need to email matti, memco-->
+        <form action = "/app_hold" method="post">
+            <label for="inputValue">What's your name?:</label> <input type="text" id="usr_name"><br/>
+            <label for="inputValue">What's your email address? :</label> <input type="email" id="usr_email"><br/>
+            <label for="inputValue">Tell us about yourself and why you are interested in Sasona:</label> <textarea id="about_usr"></textarea> <br/>
+             <label for="inputValue">Cake or pie?</label> <input type="text" id="cake_pie"><br/>
             <input type="submit" value="Submit" id="simpleSubmit">
-                    
+                             
         </form>
-        
+          <!--when accept form, say Thank and dinner is on Sunday @ 7:00p--> 
     </body>
 </html>
