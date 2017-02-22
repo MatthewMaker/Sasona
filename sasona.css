@@ -131,6 +131,33 @@ div.answers {
 }
  a.Email:link, a.Email:active,a.Email:visited, a.Email:hover { color: darkgreen;}
 
+form
+{
+    margin: 0 auto;
+    width: 100%;  
+   
+}
+
+label
+{
+    padding: 2em;
+    display: inline-block; 
+    text-align: left;
+    font: 3em;
+}
+
+input textarea
+{
+   font: 1em;
+   margin-top: 1em;
+   text-align: center;
+}
+
+.button 
+{
+    padding-left: 90px;
+}
+
 /*for the about page and links page, we will use columns. These will stack for mobile,
 but change layout for desktop*/
 .column 
