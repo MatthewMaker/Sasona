@@ -14,23 +14,40 @@
         <h1> Tell us about yourself, and join us for dinner! </h1>
         <!--for test purpose make another page but this action will need to email matti, memco-->
         <form action = "/app_hold.html" method="post">
-            <div>
+            <div class="question">
                 <label for="inputValue">What's your name?:</label>
-                <input type="text" id="usr_name">
             </div>
-            <div>
-                <label for="inputValue">What's your email address? :</label> 
-                <input type="email" id="usr_email">
-            </div>
-            <div>
-                <label for="inputValue">Tell us about yourself and why you are interested in Sasona:</label> 
-                <textarea id="about_usr"></textarea> 
-            </div>
-            <div>
-                <label for="inputValue">Cake or pie?</label> 
-                <input type="text" id="cake_pie">
-            </div>            
+           <div class="usr_response">
+                <span><input type="text" id="usr_name"></span>
+            </div>              
             
+            <div class="question">
+                <label for="inputValue">What's your email address? :</label> 
+            </div>
+            
+            <div class="usr_response">
+                 <span><input type="email" id="usr_email"></span>
+            </div>              
+         
+            <div class="question">
+                <label for="inputValue">Tell us about yourself and why you are interested in Sasona:</label> 
+            </div>
+            <div class="usr_response">
+                <span><textarea id="about_usr"></textarea> </span>
+            </div>
+             <div class="question">
+                <label for="inputValue">What interests you about living in a co-op?</label>
+            </div>
+            <div class="usr_response">
+                <span><textarea id="co-op_living"></textarea></span>
+            </div>
+            <div class="question">
+                <label for="inputValue">Cake or pie?</label>
+            </div>
+           <div class="usr_response">               
+                 <span><input type="text" id="cake_pie"></span> 
+            </div>            
+           
             <div class="button">
                 <input type="submit" value="Submit" id="simpleSubmit">
             </div>
