@@ -137,26 +137,30 @@ form
     width: 100%;  
    
 }
-
-label
+label, .button, input, textarea {padding-left: 50%;}
+label 
 {
-    padding: 2em;
+  
     display: inline-block; 
-    text-align: left;
+/*    text-align: left;*/
     font: 3em;
 }
 
-input textarea
+input, textarea, .usr_response
 {
-   font: 1em;
-   margin-top: 1em;
-   text-align: center;
+    font: 1em;
+    margin-top: 1em;
+    width: auto;
 }
+/*.questions{}*/
+
 
 .button 
 {
-    padding-left: 90px;
+    width: auto;
+   
 }
+
 
 /*for the about page and links page, we will use columns. These will stack for mobile,
 but change layout for desktop*/
