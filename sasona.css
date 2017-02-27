@@ -137,27 +137,38 @@ form
     width: 100%;  
    
 }
-label, .button, input, textarea {padding-left: 50%;}
+label, .button, .usr_response {padding-left: 50%;}
 label 
 {
   
     display: inline-block; 
 /*    text-align: left;*/
     font: 3em;
+   
 }
 
-input, textarea, .usr_response
+.usr_response
 {
     font: 1em;
-    margin-top: 1em;
-    width: auto;
+    margin: 1em;
+   
 }
+textarea
+{
+    width: 400px;
+    height: 350px;
+    border-style: solid;
+    border-color: darkgreen;
+    
+}
+
 /*.questions{}*/
 
 
 .button 
 {
     width: auto;
+    color: darkgreen;
    
 }
 
