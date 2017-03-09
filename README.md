@@ -5,9 +5,8 @@ We are a housing co-op under CHEA (Commmunity Housing Expansion of Austin).
 Our goal is to provide affordable and democratically runned housing. 
 
 to do:
-- Jackie advises dark green background with white font color for Header & nav bar
-- Edit content
-- FAQ page - accordian
+- Make first photo in chea smaller
+- Make slide show more noticable that it is a slidy show
 - Create application page and form
 
 
